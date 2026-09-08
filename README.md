@@ -1,42 +1,48 @@
-# file-lab
+# FILELAB
 
-This template should help get you started developing with Vue 3 in Vite.
+An experimental offline-first file repository system whose goal is to streamline common office works in both low and high latency areas. Additionally, its offline-first nature will allow users be able to use it even without internet connection.
 
-## Recommended IDE Setup
+## Other Documentations
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- [Architecture](https://github.com/cynessa-dev/file-lab/blob/04ecda9b9b14153585ca213c082371f4b8ffa62f/ARCHITECTURE.md)
 
-## Recommended Browser Setup
+## Quick Start
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+### Normal Route
 
-## Type Support for `.vue` Imports in TS
+To get started, you can follow the normal route, if you don't want to use Docker. Open up a terminal and follow the commands below to clone, install dependencies, and start the dev environment:
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
 ```
-
-### Compile and Hot-Reload for Development
-
-```sh
+git clone https://github.com/cynessa-dev/file-lab.git
+cd file-lab/
+npm install
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+If nothing went wrong, go ahead and open a browser and type `localhost:5173` in the address bar to see the web app.
 
-```sh
-npm run build
-```
+To turn it off, simply press `Ctrl + C`, or `Cmd + C` for Mac users, on the same terminal that `npm run dev` is running to stop it.
+
+### Docker Route
+
+_To be followed..._
+
+## Tech Stack
+
+- Vue + TypeScript
+- Go
+- PostgreSQL
+- Docker
+- Terraform
+- GitHub Actions
+- Google Cloud
+
+Tech Stacks are explain in [ARCHITECTURE.md](https://github.com/cynessa-dev/file-lab/blob/04ecda9b9b14153585ca213c082371f4b8ffa62f/ARCHITECTURE.md) so make sure to check it out.
+
+---
+
+<div align="center">
+  Made with ❤️ by Christian Mamplata
+  
+  mamplata.cb@gmail.com
+</div>
