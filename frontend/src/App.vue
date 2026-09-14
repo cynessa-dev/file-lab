@@ -14,6 +14,7 @@
 
 <style scoped>
 section {
+  position: relative;
   display: flex;
   flex-direction: column;
 }
@@ -23,6 +24,8 @@ h1 {
 }
 
 p {
+  position: absolute;
+  bottom: 0;
   max-width: 20rem;
 }
 </style>
