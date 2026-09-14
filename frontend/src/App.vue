@@ -21,11 +21,24 @@ section {
 
 h1 {
   margin: auto 0;
+  max-width: 100vw;
+  text-align: center;
 }
 
 p {
   position: absolute;
   bottom: 0;
-  max-width: 20rem;
+  max-width: 15rem;
+}
+
+@media (min-width: 720px) {
+  h1 {
+    max-width: 40vw;
+    text-align: left;
+  }
+
+  p {
+    max-width: 20rem;
+  }
 }
 </style>
