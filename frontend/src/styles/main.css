@@ -1,1 +1,10 @@
 @import './base.css';
+
+main,
+section {
+  min-height: 100vh;
+}
+
+section {
+  padding-inline: 1.25rem;
+}
